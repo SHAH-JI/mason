@@ -1,1 +1,24 @@
-Hello {{name}}!
+name: {{name}}
+
+on:
+  push:
+    branches: ['main']
+
+  workflow_dispatch:
+
+jobs:
+
+  build-release:
+    name: 👷 Build Android APK
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🧩 Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup JVM
+        uses: actions/setup-java@v3
+        with:
+          distribution: "zulu"
+          java-version: "12.x"
+          cache: "gradle"
+    
