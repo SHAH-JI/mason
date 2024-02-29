@@ -1,8 +1,8 @@
 name: coverage_badge
 description: This brick will generate the coverage badge for the dart/ flutter code
-repository: https://github.com/SHAH-JI/mason/bricks/coverage_badge
+repository: https://github.com/SHAH-JI/mason.git
 
-version: 0.2.1+1
+version: 0.1.0+1
 
 environment:
   mason: ">=0.1.0-dev.52 <0.1.0"
@@ -11,5 +11,5 @@ vars:
   percentage:
     type: number
     description: Code Coverage Percentage
-    default: 0.0
+    default: "0.0"
     prompt: Enter your code coverage percentage?
