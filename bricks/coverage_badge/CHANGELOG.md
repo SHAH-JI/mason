@@ -1,7 +1,14 @@
+# 0.1.3
+
+- fix: Update changelog
+
+# 0.1.2
+
+- fix: update Github repository
 
 # 0.1.1
 
-- feat: Update repo
+- feat: Add Github repository
 
 # 0.1.0
 

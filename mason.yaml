@@ -5,4 +5,6 @@ bricks:
     path: bricks/shorebird_android_workflow
   coverage_badge:
     path: bricks/coverage_badge
+  unit_test_template:
+    path: bricks/unit_test_template
 

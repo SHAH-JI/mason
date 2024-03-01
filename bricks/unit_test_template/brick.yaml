@@ -1,0 +1,15 @@
+name: unit_test_template
+description: A new brick created with the Mason CLI.
+
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.52 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Name of the unit test file
+    default: unit
+    prompt: Name of the model
