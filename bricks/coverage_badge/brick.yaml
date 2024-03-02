@@ -2,7 +2,7 @@ name: coverage_badge
 description: This brick will generate the coverage badge for the dart/ flutter code
 repository: https://github.com/SHAH-JI/mason/tree/main/bricks/coverage_badge
 
-version: 0.2.0+1
+version: 0.2.1+1
 
 environment:
   mason: ">=0.1.0-dev.52 <0.1.0"
