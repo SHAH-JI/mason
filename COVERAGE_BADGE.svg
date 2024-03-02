@@ -9,7 +9,7 @@
     </clipPath>
     <g clip-path="url(#a)">
         <path d="M0 0h59v20H0z" fill="#555" />
-        <path d="M59 0h43v20H59z" fill="#{{badgeColor}}" />
+        <path d="M59 0h43v20H59z" fill="#FFCF00" />
         <path d="M0 0h102v20H0z" fill="url(#b)" />
     </g>
     <g fill="#fff" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"
@@ -19,8 +19,8 @@
         </text>
         <text textLength="490" transform="scale(.1)" x="305" y="140">coverage</text>
         <text fill="#010101" fill-opacity=".3" textLength="330" transform="scale(.1)" x="795"
-            y="150">{{percentage}} %
+            y="150">60 %
         </text>
-        <text textLength="330" transform="scale(.1)" x="795" y="140">{{percentage}} %</text>
+        <text textLength="330" transform="scale(.1)" x="795" y="140">60 %</text>
     </g>
 </svg>
