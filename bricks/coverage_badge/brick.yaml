@@ -9,7 +9,7 @@ environment:
 
 vars:
   percentage:
-    type: number
+    type: string
     description: Code Coverage Percentage
-    default: 0.0
+    default: '0.0'
     prompt: Enter your code coverage percentage?

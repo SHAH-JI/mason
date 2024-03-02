@@ -1,3 +1,7 @@
+# 0.2.1
+
+- fix: DataType update
+
 # 0.2.0
 
 - feat: Added Colors for difference percentage ranges
