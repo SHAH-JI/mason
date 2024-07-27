@@ -7,4 +7,6 @@ bricks:
     path: bricks/coverage_badge
   unit_test_template:
     path: bricks/unit_test_template
+  mvvm_boiler_plate:
+    path: bricks/mvvm_boiler_plate
 
