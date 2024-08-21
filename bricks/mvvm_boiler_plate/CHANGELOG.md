@@ -1,3 +1,3 @@
 # 0.1.0+1
 
-- TODO: Describe initial release.
+- Feat: First release that generates only the files
