@@ -1,4 +1,4 @@
-import '../services/app_route_service.dart';
+import 'package:{{project}}/services/app_route_service.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,6 +20,13 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       onGenerateRoute: AppRouteService().onGenerateRoute,
+      onGenerateInitialRoutes: (initialRoute) {
+              return [
+                AppRouteService().onGenerateRoute(
+                  RouteSettings(name: initialRoute),
+                ),
+              ];
+            }
     );
   }
 }

@@ -26,8 +26,7 @@ environment:
 #  * a list of values (enums only)
 #  * an optional separator (list only)
 vars:
-  name:
+  project:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+    description: Your project name
+    prompt: Please enter your project name?

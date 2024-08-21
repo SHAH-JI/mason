@@ -1,24 +1,13 @@
+import 'package:{{project}}/utils/utils.dart';
 import 'package:flutter/material.dart';
 
-/// Class for the state of the provider
-class ProviderState {
-  ///Default constructor
-  ProviderState({this.msg});
+/// Base Class for the state handling
+class ProviderBaseState {
+  ///default constructor
+  ProviderBaseState({required this.state});
 
-  ///idle state
-  static ProviderState idle = ProviderState(msg: 'idle');
-
-  ///loading state
-  static ProviderState loading = ProviderState(msg: 'loading');
-
-  ///error state
-  static ProviderState error = ProviderState(msg: 'error');
-
-  ///success state
-  static ProviderState success = ProviderState(msg: 'success');
-
-  ///Message variables
-  String? msg;
+  /// state of the provider
+  ProviderState state;
 }
 
 ///BaseViewModel for handling the provider status
