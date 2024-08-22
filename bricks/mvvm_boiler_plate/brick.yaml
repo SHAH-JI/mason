@@ -12,4 +12,9 @@ vars:
     type: string
     description: Your project name
     default: test
-    prompt: Please enter your project name?
+    prompt: Please enter your project name
+  state_manager:
+    type: string
+    description: Name of your state manager package (Provider,Riverpod)
+    default: provider
+    prompt: Please enter name of your state manager package

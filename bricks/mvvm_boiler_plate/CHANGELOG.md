@@ -1,4 +1,10 @@
 
+# 0.3.0+3
+
+- Feat: Added some basic packages
+- Chore: Added analysis options yaml file
+- Feat: Accepts State manager package name
+
 # 0.2.0+2
 
 - Feat: Added enums for `ProviderState`
